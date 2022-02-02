@@ -34,3 +34,5 @@ name = input("Enetr your name: ")
 age = str(input("Enter your age: "))
 likes = input("Enter what you like: ")
 
+print(f"{name} is {age} and she likes {likes}")
+
