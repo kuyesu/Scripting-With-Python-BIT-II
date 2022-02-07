@@ -23,6 +23,23 @@ for x in range(1, 30, 2):
 
 
 
+""" Variables created in a loop will be accessible outside that loop
+In the example below, the names i, j and k are declared within a loop (or a pair of nested loops). 
+Despite this, all these names are accessible to the toplevel coding area."""
+for i in (range(1)):
+    for j in (range(10, 11)):
+        print(i)
+        print(j)
+        k = i + j
+        print(k)
+        print()
+ 
+ 
+print("Outside loop i:" + str(i))
+print("Outside loop j:" + str(j))
+print("Outside loop k:" + str(k))
+
+
 
 # Prints out only odd numbers - 1,3,5,7,9
 for x in range(10):
