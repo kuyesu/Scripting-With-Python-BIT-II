@@ -22,3 +22,22 @@
 # output: R. Ibach
 # first name: ReallyLongFirstName  last name: ReallyLongLastName
 # output: ReallyLongLastName
+
+
+
+""" Exercise 2 """
+
+"""
+let’s say you want to evaluate a condition and then do more than one thing if it is true:
+
+If the weather is nice, then I will:
+
+Mow the lawn
+Weed the garden
+Take the dog for a walk
+(If the weather isn’t nice, then I won’t do any of these things.)
+
+
+"""
+
+# write your code here
