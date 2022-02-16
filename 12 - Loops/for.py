@@ -36,7 +36,7 @@ for name in ['Christopher', 'Susan']:
 
 
 # printing triangle
-for x in range(1, 30, 2):
+for x in range(4, 30, 2):
     s = '*' * x
     print(s.center(30))
 
